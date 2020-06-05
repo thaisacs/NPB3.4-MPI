@@ -1,1 +1,3 @@
-language: fortran
+language: gfortran
+
+
