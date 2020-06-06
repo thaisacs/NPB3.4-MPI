@@ -1,0 +1,74 @@
+--------------------------------------------------------------------------
+[[64017,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: node06
+
+Another transport will be used instead, although this may result in
+lower performance.
+
+NOTE: You can disable this warning by setting the MCA parameter
+btl_base_warn_component_unused to 0.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.4 -- IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:   10
+ Number of processes:     1
+
+   iteration
+Init time,4.416876
+        1
+Iteration,1,4.851814,0.434927
+        2
+Iteration,2,5.231608,0.379764
+        3
+Iteration,3,5.611401,0.379769
+        4
+Iteration,4,6.039462,0.428037
+        5
+Iteration,5,6.428028,0.388540
+        6
+Iteration,6,6.807831,0.379778
+        7
+Iteration,7,7.187466,0.379611
+        8
+Iteration,8,7.566866,0.379369
+        9
+Iteration,9,7.946430,0.379540
+        10
+Iteration,10,8.326573,0.380119
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     3.91
+ Total processes =                        1
+ Active procs    =                        1
+ Mop/s total     =                    85.82
+ Mop/s/process   =                    85.82
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                      3.4
+ Compile date    =              06 Jun 2020
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = (none)
+    CMPI_INC     = (none)
+    CFLAGS       = -O3
+    CLINKFLAGS   = $(CFLAGS) -O ../kernel_stats/kernel_stats.o
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+

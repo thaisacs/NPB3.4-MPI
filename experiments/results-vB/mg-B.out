@@ -1,0 +1,88 @@
+--------------------------------------------------------------------------
+[[64026,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: node06
+
+Another transport will be used instead, although this may result in
+lower performance.
+
+NOTE: You can disable this warning by setting the MCA parameter
+btl_base_warn_component_unused to 0.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.4 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class B)
+ Iterations:   20
+ Total number of processes:      1
+
+
+ Initialization time:           0.781 seconds
+
+Init time,0.975573
+  iter    1
+Iteration,1,1.279856,0.304252
+Iteration,2,1.531160,0.251265
+Iteration,3,1.818087,0.286901
+Iteration,4,2.066562,0.248442
+  iter    5
+Iteration,5,2.368752,0.302162
+Iteration,6,2.621707,0.252922
+Iteration,7,2.868666,0.246932
+Iteration,8,3.168806,0.300115
+Iteration,9,3.420798,0.251955
+  iter   10
+Iteration,10,3.670230,0.249402
+Iteration,11,3.984721,0.314463
+Iteration,12,4.230087,0.245327
+Iteration,13,4.481338,0.251223
+Iteration,14,4.771629,0.290265
+  iter   15
+Iteration,15,5.028503,0.256843
+Iteration,16,5.285113,0.256586
+Iteration,17,5.563370,0.278229
+Iteration,18,5.840958,0.277558
+Iteration,19,6.086076,0.245090
+  iter   20
+Iteration,20,6.331590,0.245486
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1800564401355E-05
+ Error is    0.6633011597529E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        B
+ Size            =            256x 256x 256
+ Iterations      =                       20
+ Time in seconds =                     5.45
+ Total processes =                        1
+ Active procs    =                        1
+ Mop/s total     =                  3573.07
+ Mop/s/process   =                  3573.07
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.4
+ Compile date    =              06 Jun 2020
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS) -O ../kernel_stats/kernel_stats.o
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
