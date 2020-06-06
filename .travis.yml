@@ -1,3 +1,4 @@
-language: gfortran
+language: c
 
-
+script:
+  - echo 'npb'
