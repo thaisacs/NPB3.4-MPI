@@ -71,6 +71,7 @@ c---------------------------------------------------------------------
      >            'exch', 'lcomm', 'ucomm', 'rcomm',
      >            ' totcomp', ' totcomm'/
 
+      call init_timestep()
 c---------------------------------------------------------------------
 c   initialize communications
 c---------------------------------------------------------------------
@@ -191,10 +192,12 @@ c---------------------------------------------------------------------
       if (id .eq. 0) then
          write(*, 800) num
          do i = 1, t_last+2
+            call begin_timestep()
             if (t_recs(i)(1:1) .ne. '#') then
                tsum(i) = tsum(i) / num
                write(*, 810) i, t_recs(i), tming(i), tmaxg(i), tsum(i)
             endif
+            call end_timestep()
          end do
       endif
  800  format(' nprocs =', i6, 11x, 'minimum', 5x, 'maximum', 

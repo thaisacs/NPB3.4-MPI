@@ -169,6 +169,7 @@ c---------------------------------------------------------------------
        call timer_start(1)
 
        do  step = 1, niter
+          call begin_timestep()
 
           if (node .eq. root) then
              if (mod(step, 20) .eq. 0 .or. 
@@ -180,6 +181,7 @@ c---------------------------------------------------------------------
 
           call adi
 
+          call end_timestep()
        end do
 
        call timer_stop(1)
