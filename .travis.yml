@@ -7,4 +7,5 @@ before_install:
 
 script:
   - ls
-  - cd experiments && ./script-build.sh
+  - cd travis && ./script-build.sh
+  - cd .. && make suite
