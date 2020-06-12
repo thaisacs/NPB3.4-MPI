@@ -1,5 +1,10 @@
 language: c
 
+before_install:
+  - sudo apt-get -y install libgfortran3
+  - sudo apt-get -y install sysstat libibnetdisc-dev openmpi-bin libopenmpi-dev
+  - sudo apt-get -y install libhdf5-openmpi-dev gfortran build-essential
+
 script:
   - ls
   - cd experiments && ./script-build.sh
