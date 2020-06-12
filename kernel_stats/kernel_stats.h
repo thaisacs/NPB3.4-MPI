@@ -7,22 +7,31 @@
 #include <inttypes.h>
 #include <stdlib.h>
 
-#define STOP_IN 5
 #define PRINT_INIT 1
 #define PRINT_STATS 2
+#define PRINT_EXIT 3
+#define PRINT_AVG 4
+#define PRINT_BETA 5
 
 typedef enum {false, true} bool;
 
+int stop_in = 5;
 unsigned int current_iteration;
 double init_time;
 double begin_time;
-bool early_stop = true;
+double end_time;
+double pi_sum;
+bool early_stop = false;
 
 double get_current_time();
 int get_iteration_();
 void init_timestep_();
 void end_timestep_();
 void begin_timestep_();
+void exit_timestep_();
+void my_exit();
+void set_early_stop_(int* number);
+void debug_();
 
 #endif
 

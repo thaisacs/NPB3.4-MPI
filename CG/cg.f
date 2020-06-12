@@ -81,6 +81,20 @@ c---------------------------------------------------------------------
       data t_recs/'total', 'conjg', 'rcomm', 'ncomm',
      >            ' totcomp', ' totcomm'/
 
+      character(len=100) arg1
+      character(len=100) arg2
+      integer value_r, parse_init
+
+      if(command_argument_count() == 2) then
+        call get_command_argument(1, arg1)
+        call get_command_argument(2, arg2)
+        value_r = parse_init(arg1, arg2)
+
+        if(value_r /= -1) then
+          call set_early_stop(value_r)
+        endif
+      endif
+
 
       call init_timestep()
 c---------------------------------------------------------------------
@@ -480,6 +494,7 @@ c---------------------------------------------------------------------
  810  format(' timer ', i2, '(', A8, ') :', 3(2x,f10.4))
 
  999  continue
+      call exit_timestep()
       call mpi_finalize(ierr)
 
 

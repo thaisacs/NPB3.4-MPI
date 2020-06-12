@@ -1,4 +1,5 @@
 language: c
 
 script:
-  - echo 'npb'
+  - cd experiments
+  - ./script-build
