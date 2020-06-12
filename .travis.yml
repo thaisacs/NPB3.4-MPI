@@ -2,4 +2,4 @@ language: c
 
 script:
   - ls
-  - cd experiments && ./script-build
+  - cd experiments && ./script-build.sh
