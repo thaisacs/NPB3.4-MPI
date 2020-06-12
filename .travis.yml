@@ -1,11 +1,11 @@
 language: c
 
 before_install:
-  - sudo apt-get -y install libgfortran3
+  - sudo apt-get update
+  - sudo apt-get -y install libgfortran3 gcc make
   - sudo apt-get -y install sysstat libibnetdisc-dev openmpi-bin libopenmpi-dev
   - sudo apt-get -y install libhdf5-openmpi-dev gfortran build-essential
 
 script:
-  - ls
   - cd travis && ./script-build.sh
   - cd .. && make suite
