@@ -28,7 +28,7 @@ void print_timestep(uint8_t type, double collected_time) {
       printf("[MO866] Total time,%i,%f\n", rank, collected_time - init_time);
       break;
     case PRINT_AVG:
-      printf("[MO866] PI avg,%i,%i,%f\n", rank, pi_sum/current_iteration, current_iteration);
+      printf("[MO866] PI avg,%i,%f,%d\n", rank, pi_sum/current_iteration, current_iteration);
       break;
     case PRINT_BETA:
       printf("[MO866] Beta,%i,%f\n", rank, (collected_time - end_time)/pi_sum);
