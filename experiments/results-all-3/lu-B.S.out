@@ -1,0 +1,54 @@
+--------------------------------------------------------------------------
+[[38677,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: node06
+
+Another transport will be used instead, although this may result in
+lower performance.
+
+NOTE: You can disable this warning by setting the MCA parameter
+btl_base_warn_component_unused to 0.
+--------------------------------------------------------------------------
+[MO833] Init time,0,0.937845
+[MO833] Iteration,0,1,2.080742,1.142897
+[MO833] Iteration,0,2,2.743151,0.662409
+[MO833] Iteration,0,3,3.432758,0.689607
+[MO833] Iteration,0,4,4.094692,0.661934
+[MO833] Iteration,0,5,4.742857,0.648165
+[MO833] Iteration,0,6,5.385235,0.642378
+[MO833] Iteration,0,7,6.072459,0.687224
+[MO833] Iteration,0,8,6.714752,0.642293
+[MO833] Iteration,0,9,7.357019,0.642267
+[MO833] Iteration,0,10,7.999237,0.642218
+[MO833] Iteration,0,11,8.641670,0.642433
+[MO833] Iteration,0,12,9.328919,0.687249
+[MO833] Iteration,0,13,9.970927,0.642008
+[MO833] Iteration,0,14,10.612911,0.641984
+[MO833] Iteration,0,15,11.255640,0.642729
+[MO833] Iteration,0,16,11.897970,0.642330
+[MO833] Iteration,0,17,12.540226,0.642256
+[MO833] Iteration,0,18,13.226838,0.686612
+[MO833] Iteration,0,19,13.868922,0.642084
+[MO833] Iteration,0,20,14.511209,0.642287
+[MO833] Iteration,0,21,15.153347,0.642138
+[MO833] Iteration,0,22,15.795944,0.642597
+[MO833] Iteration,0,23,16.438010,0.642066
+[MO833] Iteration,0,24,17.080303,0.642293
+[MO833] Iteration,0,25,17.722416,0.642113
+[MO833] Iteration,0,26,18.407872,0.685456
+[MO833] Iteration,0,27,19.049993,0.642121
+[MO833] Iteration,0,28,19.692307,0.642314
+[MO833] Iteration,0,29,20.334255,0.641948
+[MO833] Iteration,0,30,20.976252,0.641997
+[MO833] Iteration,0,31,21.618187,0.641935
+[MO833] Iteration,0,32,22.260277,0.642090
+[MO833] Iteration,0,33,22.902360,0.642083
+[MO833] Iteration,0,34,23.544839,0.642479
+[MO833] Iteration,0,35,24.186836,0.641997
+[MO833] Iteration,0,36,24.829236,0.642400
+[MO833] Iteration,0,37,25.516807,0.687571
+[MO833] Iteration,0,38,26.158858,0.642051
+[MO833] Iteration,0,39,26.801004,0.642146
+[MO833] Iteration,0,40,27.443245,0.642241
