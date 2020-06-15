@@ -21,6 +21,7 @@ double init_time;
 double begin_time;
 double end_time;
 double pi_sum;
+double pi;
 bool early_stop = false;
 
 double get_current_time();
