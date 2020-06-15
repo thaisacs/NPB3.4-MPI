@@ -1,0 +1,96 @@
+--------------------------------------------------------------------------
+[[36286,1],1]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: node06
+
+Another transport will be used instead, although this may result in
+lower performance.
+
+NOTE: You can disable this warning by setting the MCA parameter
+btl_base_warn_component_unused to 0.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  256x 256x 128  (class A)
+ Iterations          :              6
+ Number of processes :              4
+ Processor array     :         1x   4
+ Layout type         :             1D
+
+ Initialization time =      0.2854
+
+[MO866] Init time,0,0.659189
+[MO866] Init time,2,0.654064
+[MO866] Init time,1,0.664778
+[MO866] Init time,3,0.658988
+[MO866] Iteration,2,1,0.842761,0.188661
+[MO866] Iteration,3,1,0.848045,0.188997
+[MO866] Iteration,1,1,0.853980,0.189090
+ T =    1     Checksum =    5.046735008193D+02    5.114047905510D+02
+[MO866] Iteration,0,1,0.855252,0.196027
+[MO866] Iteration,2,2,1.027803,0.185013
+[MO866] Iteration,1,2,1.039183,0.185181
+[MO866] Iteration,3,2,1.033425,0.185338
+ T =    2     Checksum =    5.059412319734D+02    5.098809666433D+02
+[MO866] Iteration,0,2,1.040516,0.185252
+[MO866] Iteration,2,3,1.232821,0.204988
+[MO866] Iteration,3,3,1.235267,0.201803
+ T =    3     Checksum =    5.069376896287D+02    5.098144042213D+02
+[MO866] Iteration,0,3,1.242900,0.202368
+[MO866] Iteration,1,3,1.241722,0.202472
+[MO866] Iteration,2,4,1.423548,0.190694
+[MO866] Iteration,1,4,1.434679,0.192935
+[MO866] Iteration,3,4,1.428814,0.193505
+ T =    4     Checksum =    5.077892868474D+02    5.101336130759D+02
+[MO866] Iteration,0,4,1.435896,0.192974
+[MO866] Iteration,2,5,1.608598,0.185021
+ T =    5     Checksum =    5.085233095391D+02    5.104914655194D+02
+[MO866] Iteration,0,5,1.620877,0.184956
+[MO866] Iteration,1,5,1.619663,0.184953
+[MO866] Iteration,3,5,1.613805,0.184937
+[MO866] Iteration,2,6,1.793546,0.184919
+[MO866] Iteration,3,6,1.798606,0.184750
+[MO866] Iteration,1,6,1.804570,0.184872
+ T =    6     Checksum =    5.091487099959D+02    5.107917842803D+02
+[MO866] Iteration,0,6,1.805714,0.184826
+ Result verification successful
+[MO866] PI avg,0,0.191067,6
+[MO866] Beta,0,0.000036
+[MO866] Total time,0,1.805755
+
+
+ FT Benchmark Completed.
+ Class           =                        A
+ Size            =            256x 256x 128
+ Iterations      =                        6
+ Time in seconds =                     1.38
+ Total processes =                        4
+ Active procs    =                        4
+ Mop/s total     =                  5185.85
+ Mop/s/process   =                  1296.46
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.4
+ Compile date    =              15 Jun 2020
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS) -O ../kernel_stats/kernel_stats.o...
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+

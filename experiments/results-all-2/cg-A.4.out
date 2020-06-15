@@ -1,0 +1,151 @@
+--------------------------------------------------------------------------
+[[35138,1],1]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: node06
+
+Another transport will be used instead, although this may result in
+lower performance.
+
+NOTE: You can disable this warning by setting the MCA parameter
+btl_base_warn_component_unused to 0.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:      14000  (class A)
+ Iterations:    15
+ Number of processes:     4
+ Number of nonzeroes per row:       11
+ Eigenvalue shift:    20.000
+[MO866] Init time,1,0.186930
+[MO866] Init time,2,0.183870
+[MO866] Init time,3,0.182051
+[MO866] Init time,0,0.188545
+[MO866] Iteration,3,1,0.200477,0.018384
+[MO866] Iteration,1,1,0.205358,0.018386
+[MO866] Iteration,2,1,0.202298,0.018398
+
+   iteration           ||r||                 zeta
+        1       0.30634143529489E-12    19.9997581277040
+[MO866] Iteration,0,1,0.207038,0.018463
+[MO866] Iteration,2,2,0.220646,0.018332
+[MO866] Iteration,3,2,0.218825,0.018331
+[MO866] Iteration,1,2,0.223706,0.018333
+        2       0.31096276403002E-14    17.1140495745506
+[MO866] Iteration,0,2,0.225347,0.018303
+[MO866] Iteration,1,3,0.242052,0.018331
+[MO866] Iteration,2,3,0.238995,0.018336
+[MO866] Iteration,3,3,0.237174,0.018332
+        3       0.30804037245735E-14    17.1296668946143
+[MO866] Iteration,0,3,0.243687,0.018335
+[MO866] Iteration,3,4,0.255454,0.018266
+[MO866] Iteration,1,4,0.260332,0.018265
+[MO866] Iteration,2,4,0.257275,0.018267
+        4       0.31368886171027E-14    17.1302113581193
+[MO866] Iteration,0,4,0.261967,0.018268
+[MO866] Iteration,2,5,0.275569,0.018281
+[MO866] Iteration,3,5,0.273748,0.018280
+[MO866] Iteration,1,5,0.278628,0.018280
+        5       0.30931762620174E-14    17.1302338856353
+[MO866] Iteration,0,5,0.280262,0.018291
+[MO866] Iteration,1,6,0.296907,0.018265
+[MO866] Iteration,2,6,0.293849,0.018267
+[MO866] Iteration,3,6,0.292028,0.018265
+        6       0.30711211120903E-14    17.1302349879482
+[MO866] Iteration,0,6,0.298552,0.018286
+[MO866] Iteration,3,7,0.310316,0.018273
+[MO866] Iteration,1,7,0.315195,0.018273
+[MO866] Iteration,2,7,0.312138,0.018271
+        7       0.30014434726280E-14    17.1302350498916
+[MO866] Iteration,0,7,0.316829,0.018273
+[MO866] Iteration,2,8,0.330452,0.018302
+[MO866] Iteration,3,8,0.328631,0.018300
+[MO866] Iteration,1,8,0.333510,0.018300
+        8       0.30091464390590E-14    17.1302350537510
+[MO866] Iteration,0,8,0.335144,0.018311
+[MO866] Iteration,1,9,0.351781,0.018256
+[MO866] Iteration,2,9,0.348722,0.018258
+[MO866] Iteration,3,9,0.346901,0.018255
+        9       0.30845738922029E-14    17.1302350540101
+[MO866] Iteration,0,9,0.353414,0.018266
+[MO866] Iteration,3,10,0.365165,0.018248
+[MO866] Iteration,1,10,0.370044,0.018248
+[MO866] Iteration,2,10,0.366985,0.018250
+       10       0.30464804270749E-14    17.1302350540284
+[MO866] Iteration,0,10,0.371677,0.018259
+[MO866] Iteration,2,11,0.385250,0.018252
+[MO866] Iteration,3,11,0.383429,0.018250
+[MO866] Iteration,1,11,0.388308,0.018250
+       11       0.30356703468820E-14    17.1302350540298
+[MO866] Iteration,0,11,0.389942,0.018261
+[MO866] Iteration,1,12,0.406595,0.018272
+[MO866] Iteration,2,12,0.403537,0.018274
+[MO866] Iteration,3,12,0.401716,0.018272
+       12       0.30110387739490E-14    17.1302350540299
+[MO866] Iteration,0,12,0.408228,0.018282
+[MO866] Iteration,3,13,0.419988,0.018257
+[MO866] Iteration,1,13,0.424868,0.018257
+[MO866] Iteration,2,13,0.421809,0.018260
+       13       0.29937783924423E-14    17.1302350540299
+[MO866] Iteration,0,13,0.426501,0.018269
+[MO866] Iteration,2,14,0.440094,0.018272
+[MO866] Iteration,3,14,0.438273,0.018269
+[MO866] Iteration,1,14,0.443152,0.018269
+       14       0.30298504149112E-14    17.1302350540299
+[MO866] Iteration,0,14,0.444785,0.018280
+[MO866] Iteration,1,15,0.461441,0.018274
+[MO866] PI avg,1,0.018284,15
+[MO866] Beta,1,0.000124
+[MO866] Total time,1,0.461475
+[MO866] Iteration,2,15,0.458383,0.018277
+[MO866] PI avg,2,0.018286,15
+[MO866] Beta,2,0.000106
+[MO866] Total time,2,0.458412
+[MO866] Iteration,3,15,0.456561,0.018273
+[MO866] PI avg,3,0.018284,15
+[MO866] Beta,3,0.000211
+[MO866] Total time,3,0.456619
+       15       0.30223982636897E-14    17.1302350540299
+[MO866] Iteration,0,15,0.463075,0.018286
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.1713023505403E+02
+ Error is    0.5226337199892E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Time in seconds =                     0.27
+ Total processes =                        4
+ Active procs    =                        4
+ Mop/s total     =                  5450.75
+ Mop/s/process   =                  1362.69
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.4
+ Compile date    =              15 Jun 2020
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS) -O ../kernel_stats/kernel_stats.o...
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+[MO866] PI avg,0,0.018295,15
+[MO866] Beta,0,0.000857
+[MO866] Total time,0,0.463310
