@@ -1,0 +1,121 @@
+--------------------------------------------------------------------------
+[[60884,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: node06
+
+Another transport will be used instead, although this may result in
+lower performance.
+
+NOTE: You can disable this warning by setting the MCA parameter
+btl_base_warn_component_unused to 0.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  256x 256x 128  (class A)
+ Iterations          :              6
+ Number of processes :              8
+ Processor array     :         1x   8
+ Layout type         :             1D
+
+ Initialization time =      0.2119
+
+[MO866] Init time,0,0.561663
+[MO866] Init time,2,0.557597
+[MO866] Init time,6,0.547184
+[MO866] Init time,4,0.552476
+[MO866] Init time,1,0.563341
+[MO866] Init time,3,0.558646
+[MO866] Init time,5,0.553161
+[MO866] Init time,7,0.548821
+[MO866] Iteration,4,1,0.674516,0.121992
+[MO866] Iteration,1,1,0.681767,0.118269
+[MO866] Iteration,6,1,0.669230,0.122001
+[MO866] Iteration,3,1,0.676988,0.118250
+[MO866] Iteration,2,1,0.679638,0.121999
+[MO866] Iteration,5,1,0.671562,0.118303
+[MO866] Iteration,7,1,0.667139,0.118253
+ T =    1     Checksum =    5.046735008193D+02    5.114047905510D+02
+[MO866] Iteration,0,1,0.684121,0.122414
+[MO866] Iteration,5,2,0.790893,0.119310
+[MO866] Iteration,1,2,0.801079,0.119287
+[MO866] Iteration,3,2,0.796396,0.119364
+[MO866] Iteration,2,2,0.799015,0.119342
+ T =    2     Checksum =    5.059412319734D+02    5.098809666433D+02
+[MO866] Iteration,0,2,0.803512,0.119380
+[MO866] Iteration,7,2,0.786626,0.119446
+[MO866] Iteration,4,2,0.793932,0.119395
+[MO866] Iteration,6,2,0.788687,0.119425
+[MO866] Iteration,5,3,0.909127,0.118214
+[MO866] Iteration,2,3,0.917879,0.118817
+[MO866] Iteration,3,3,0.915260,0.118844
+[MO866] Iteration,7,3,0.906210,0.119545
+[MO866] Iteration,6,3,0.908271,0.119557
+[MO866] Iteration,4,3,0.913516,0.119556
+[MO866] Iteration,1,3,0.920771,0.119650
+ T =    3     Checksum =    5.069376896287D+02    5.098144042213D+02
+[MO866] Iteration,0,3,0.923070,0.119545
+[MO866] Iteration,1,4,1.038860,0.118060
+[MO866] Iteration,7,4,1.024300,0.118059
+[MO866] Iteration,6,4,1.026361,0.118067
+[MO866] Iteration,2,4,1.036838,0.118922
+[MO866] Iteration,5,4,1.028767,0.119598
+ T =    4     Checksum =    5.077892868474D+02    5.101336130759D+02
+[MO866] Iteration,0,4,1.041237,0.118159
+[MO866] Iteration,3,4,1.034218,0.118940
+[MO866] Iteration,4,4,1.031696,0.118159
+[MO866] Iteration,5,5,1.152914,0.124115
+[MO866] Iteration,2,5,1.161376,0.124516
+[MO866] Iteration,4,5,1.156223,0.124494
+[MO866] Iteration,7,5,1.148903,0.124583
+[MO866] Iteration,3,5,1.158747,0.124502
+[MO866] Iteration,6,5,1.150973,0.124580
+ T =    5     Checksum =    5.085233095391D+02    5.104914655194D+02
+[MO866] Iteration,0,5,1.168971,0.127726
+[MO866] Iteration,1,5,1.166705,0.127801
+[MO866] Iteration,6,6,1.271246,0.120243
+[MO866] Iteration,7,6,1.269185,0.120254
+[MO866] Iteration,1,6,1.283836,0.117062
+[MO866] Iteration,5,6,1.273687,0.120719
+[MO866] Iteration,4,6,1.276613,0.120369
+[MO866] Iteration,2,6,1.281809,0.120396
+ T =    6     Checksum =    5.091487099959D+02    5.107917842803D+02
+[MO866] Iteration,0,6,1.286133,0.117147
+[MO866] Iteration,3,6,1.279188,0.120413
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        A
+ Size            =            256x 256x 128
+ Iterations      =                        6
+ Time in seconds =                     0.92
+ Total processes =                        8
+ Active procs    =                        8
+ Mop/s total     =                  7722.42
+ Mop/s/process   =                   965.30
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.4
+ Compile date    =              15 Jun 2020
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS) -O ../kernel_stats/kernel_stats.o...
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+

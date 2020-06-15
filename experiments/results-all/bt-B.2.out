@@ -1,0 +1,287 @@
+--------------------------------------------------------------------------
+[[55007,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: node06
+
+Another transport will be used instead, although this may result in
+lower performance.
+
+NOTE: You can disable this warning by setting the MCA parameter
+btl_base_warn_component_unused to 0.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.4 -- BT Benchmark
+
+[MO866] Total time,1,0.127103
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102  (class B)
+ Iterations:  200    dt:   0.0003000
+ WARNING: Number of active processes:     1
+ Total number of processes:     2
+
+aquiii
+[MO866] Init time,0,2.382240
+ Time step    1
+[MO866] Iteration,0,1,3.841096,1.458836
+[MO866] Iteration,0,2,5.307025,1.465886
+[MO866] Iteration,0,3,6.738670,1.431605
+[MO866] Iteration,0,4,8.129500,1.390786
+[MO866] Iteration,0,5,9.580798,1.451249
+[MO866] Iteration,0,6,11.027117,1.446283
+[MO866] Iteration,0,7,12.444045,1.416889
+[MO866] Iteration,0,8,13.837330,1.393247
+[MO866] Iteration,0,9,15.244885,1.407520
+[MO866] Iteration,0,10,16.629216,1.384288
+[MO866] Iteration,0,11,18.046082,1.416829
+[MO866] Iteration,0,12,19.407903,1.361777
+[MO866] Iteration,0,13,20.787202,1.379269
+[MO866] Iteration,0,14,22.150622,1.363382
+[MO866] Iteration,0,15,23.559497,1.408840
+[MO866] Iteration,0,16,24.918012,1.358477
+[MO866] Iteration,0,17,26.310392,1.392346
+[MO866] Iteration,0,18,27.702945,1.392514
+[MO866] Iteration,0,19,29.115577,1.412600
+ Time step   20
+[MO866] Iteration,0,20,30.474871,1.359255
+[MO866] Iteration,0,21,31.851816,1.376913
+[MO866] Iteration,0,22,33.215664,1.363811
+[MO866] Iteration,0,23,34.566967,1.351274
+[MO866] Iteration,0,24,35.978505,1.411506
+[MO866] Iteration,0,25,37.338992,1.360443
+[MO866] Iteration,0,26,38.692140,1.353118
+[MO866] Iteration,0,27,40.073681,1.381509
+[MO866] Iteration,0,28,41.445571,1.371850
+[MO866] Iteration,0,29,42.797282,1.351675
+[MO866] Iteration,0,30,44.148886,1.351570
+[MO866] Iteration,0,31,45.558920,1.410003
+[MO866] Iteration,0,32,46.916879,1.357918
+[MO866] Iteration,0,33,48.268660,1.351748
+[MO866] Iteration,0,34,49.649316,1.380623
+[MO866] Iteration,0,35,51.012805,1.363449
+[MO866] Iteration,0,36,52.364611,1.351774
+[MO866] Iteration,0,37,53.734793,1.370149
+[MO866] Iteration,0,38,55.148001,1.413174
+[MO866] Iteration,0,39,56.521362,1.373321
+ Time step   40
+[MO866] Iteration,0,40,57.872846,1.351451
+[MO866] Iteration,0,41,59.224877,1.351996
+[MO866] Iteration,0,42,60.600633,1.375723
+[MO866] Iteration,0,43,61.964866,1.364198
+[MO866] Iteration,0,44,63.316080,1.351181
+[MO866] Iteration,0,45,64.667538,1.351428
+[MO866] Iteration,0,46,66.019332,1.351763
+[MO866] Iteration,0,47,67.423124,1.403763
+[MO866] Iteration,0,48,68.785141,1.361979
+[MO866] Iteration,0,49,70.136805,1.351632
+[MO866] Iteration,0,50,71.488933,1.352094
+[MO866] Iteration,0,51,72.840374,1.351407
+[MO866] Iteration,0,52,74.214416,1.374012
+[MO866] Iteration,0,53,75.578003,1.363546
+[MO866] Iteration,0,54,76.930006,1.351969
+[MO866] Iteration,0,55,78.281814,1.351776
+[MO866] Iteration,0,56,79.632917,1.351069
+[MO866] Iteration,0,57,80.984735,1.351785
+[MO866] Iteration,0,58,82.336709,1.351941
+[MO866] Iteration,0,59,83.776975,1.440235
+ Time step   60
+[MO866] Iteration,0,60,85.157468,1.380451
+[MO866] Iteration,0,61,86.522431,1.364929
+[MO866] Iteration,0,62,87.873668,1.351205
+[MO866] Iteration,0,63,89.225684,1.351983
+[MO866] Iteration,0,64,90.599307,1.373590
+[MO866] Iteration,0,65,91.962889,1.363542
+[MO866] Iteration,0,66,93.314841,1.351920
+[MO866] Iteration,0,67,94.666109,1.351237
+[MO866] Iteration,0,68,96.017756,1.351614
+[MO866] Iteration,0,69,97.369179,1.351390
+[MO866] Iteration,0,70,98.721696,1.352484
+[MO866] Iteration,0,71,100.073557,1.351827
+[MO866] Iteration,0,72,101.483306,1.409715
+[MO866] Iteration,0,73,102.841434,1.358090
+[MO866] Iteration,0,74,104.193581,1.352112
+[MO866] Iteration,0,75,105.544597,1.350982
+[MO866] Iteration,0,76,106.896659,1.352029
+[MO866] Iteration,0,77,108.264479,1.367788
+[MO866] Iteration,0,78,109.615721,1.351212
+[MO866] Iteration,0,79,111.013280,1.397529
+ Time step   80
+[MO866] Iteration,0,80,112.377650,1.364330
+[MO866] Iteration,0,81,113.730036,1.352349
+[MO866] Iteration,0,82,115.081470,1.351402
+[MO866] Iteration,0,83,116.433579,1.352075
+[MO866] Iteration,0,84,117.784642,1.351029
+[MO866] Iteration,0,85,119.156116,1.371443
+[MO866] Iteration,0,86,120.536424,1.380278
+[MO866] Iteration,0,87,121.906337,1.369883
+[MO866] Iteration,0,88,123.325898,1.419527
+[MO866] Iteration,0,89,124.683219,1.357279
+[MO866] Iteration,0,90,126.035453,1.352203
+[MO866] Iteration,0,91,127.386597,1.351113
+[MO866] Iteration,0,92,128.739030,1.352400
+[MO866] Iteration,0,93,130.090522,1.351461
+[MO866] Iteration,0,94,131.442392,1.351835
+[MO866] Iteration,0,95,132.793636,1.351209
+[MO866] Iteration,0,96,134.175559,1.381891
+[MO866] Iteration,0,97,135.539479,1.363885
+[MO866] Iteration,0,98,136.895389,1.355880
+[MO866] Iteration,0,99,138.247048,1.351629
+ Time step  100
+[MO866] Iteration,0,100,139.598107,1.351029
+[MO866] Iteration,0,101,140.949800,1.351660
+[MO866] Iteration,0,102,142.301535,1.351702
+[MO866] Iteration,0,103,143.652873,1.351305
+[MO866] Iteration,0,104,145.004141,1.351235
+[MO866] Iteration,0,105,146.356200,1.352028
+[MO866] Iteration,0,106,147.707908,1.351678
+[MO866] Iteration,0,107,149.117705,1.409768
+[MO866] Iteration,0,108,150.476209,1.358461
+[MO866] Iteration,0,109,151.827588,1.351345
+[MO866] Iteration,0,110,153.179392,1.351774
+[MO866] Iteration,0,111,154.530892,1.351471
+[MO866] Iteration,0,112,155.882128,1.351203
+[MO866] Iteration,0,113,157.233220,1.351057
+[MO866] Iteration,0,114,158.584508,1.351255
+[MO866] Iteration,0,115,159.936056,1.351516
+[MO866] Iteration,0,116,161.287545,1.351458
+[MO866] Iteration,0,117,162.668508,1.380934
+[MO866] Iteration,0,118,164.031856,1.363310
+[MO866] Iteration,0,119,165.383036,1.351149
+ Time step  120
+[MO866] Iteration,0,120,166.736015,1.352949
+[MO866] Iteration,0,121,168.101938,1.365893
+[MO866] Iteration,0,122,169.453210,1.351238
+[MO866] Iteration,0,123,170.804858,1.351615
+[MO866] Iteration,0,124,172.156478,1.351588
+[MO866] Iteration,0,125,173.507778,1.351269
+[MO866] Iteration,0,126,174.859179,1.351371
+[MO866] Iteration,0,127,176.210793,1.351584
+[MO866] Iteration,0,128,177.561839,1.351014
+[MO866] Iteration,0,129,178.913255,1.351383
+[MO866] Iteration,0,130,180.324071,1.410782
+[MO866] Iteration,0,131,181.681765,1.357654
+[MO866] Iteration,0,132,183.033760,1.351960
+[MO866] Iteration,0,133,184.385270,1.351477
+[MO866] Iteration,0,134,185.736884,1.351580
+[MO866] Iteration,0,135,187.088292,1.351373
+[MO866] Iteration,0,136,188.439878,1.351554
+[MO866] Iteration,0,137,189.791334,1.351425
+[MO866] Iteration,0,138,191.142658,1.351296
+[MO866] Iteration,0,139,192.522397,1.379706
+ Time step  140
+[MO866] Iteration,0,140,193.897925,1.375495
+[MO866] Iteration,0,141,195.270230,1.372272
+[MO866] Iteration,0,142,196.669027,1.398763
+[MO866] Iteration,0,143,198.032024,1.362959
+[MO866] Iteration,0,144,199.383637,1.351581
+[MO866] Iteration,0,145,200.734820,1.351154
+[MO866] Iteration,0,146,202.086001,1.351149
+[MO866] Iteration,0,147,203.437071,1.351037
+[MO866] Iteration,0,148,204.788486,1.351383
+[MO866] Iteration,0,149,206.139544,1.351026
+[MO866] Iteration,0,150,207.491212,1.351638
+[MO866] Iteration,0,151,208.842681,1.351438
+[MO866] Iteration,0,152,210.194257,1.351516
+[MO866] Iteration,0,153,211.545679,1.351390
+[MO866] Iteration,0,154,212.897643,1.351930
+[MO866] Iteration,0,155,214.249186,1.351510
+[MO866] Iteration,0,156,215.600145,1.350926
+[MO866] Iteration,0,157,217.013748,1.413572
+[MO866] Iteration,0,158,218.372575,1.358784
+[MO866] Iteration,0,159,219.767819,1.395214
+ Time step  160
+[MO866] Iteration,0,160,221.148432,1.380583
+[MO866] Iteration,0,161,222.514461,1.365997
+[MO866] Iteration,0,162,223.866067,1.351571
+[MO866] Iteration,0,163,225.217312,1.351210
+[MO866] Iteration,0,164,226.568824,1.351479
+[MO866] Iteration,0,165,227.920294,1.351437
+[MO866] Iteration,0,166,229.271552,1.351228
+[MO866] Iteration,0,167,230.623404,1.351822
+[MO866] Iteration,0,168,231.974386,1.350952
+[MO866] Iteration,0,169,233.325390,1.350971
+[MO866] Iteration,0,170,234.676812,1.351389
+[MO866] Iteration,0,171,236.028240,1.351397
+[MO866] Iteration,0,172,237.409274,1.381004
+[MO866] Iteration,0,173,238.771366,1.362053
+[MO866] Iteration,0,174,240.107939,1.336541
+[MO866] Iteration,0,175,241.444326,1.336357
+[MO866] Iteration,0,176,242.781212,1.336856
+[MO866] Iteration,0,177,244.118059,1.336814
+[MO866] Iteration,0,178,245.454736,1.336645
+[MO866] Iteration,0,179,246.791697,1.336919
+ Time step  180
+[MO866] Iteration,0,180,248.128512,1.336785
+[MO866] Iteration,0,181,249.465322,1.336780
+[MO866] Iteration,0,182,250.801947,1.336592
+[MO866] Iteration,0,183,252.138571,1.336591
+[MO866] Iteration,0,184,253.475106,1.336501
+[MO866] Iteration,0,185,254.811846,1.336711
+[MO866] Iteration,0,186,256.148611,1.336736
+[MO866] Iteration,0,187,257.485203,1.336562
+[MO866] Iteration,0,188,258.822136,1.336902
+[MO866] Iteration,0,189,260.158843,1.336674
+[MO866] Iteration,0,190,261.550466,1.391592
+[MO866] Iteration,0,191,262.897217,1.346710
+[MO866] Iteration,0,192,264.234105,1.336855
+[MO866] Iteration,0,193,265.576001,1.341863
+[MO866] Iteration,0,194,266.917515,1.341485
+[MO866] Iteration,0,195,268.254473,1.336925
+[MO866] Iteration,0,196,269.591133,1.336628
+[MO866] Iteration,0,197,270.928052,1.336888
+[MO866] Iteration,0,198,272.264853,1.336770
+[MO866] Iteration,0,199,273.601748,1.336864
+ Time step  200
+[MO866] Iteration,0,200,274.938777,1.336997
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.7507984505732E-14
+           2 0.9933052259015E+02 0.9933052259015E+02 0.3147459568137E-14
+           3 0.3564602564454E+03 0.3564602564454E+03 0.4783990739472E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.2309751522921E-13
+           5 0.3270754125466E+04 0.3270754125466E+04 0.8481098651866E-14
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.2682819657265E-15
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1989963674771E-15
+           3 0.1312257334221E+02 0.1312257334221E+02 0.4060995034457E-15
+           4 0.1200692532356E+02 0.1200692532356E+02 0.2958887128106E-15
+           5 0.1245957615104E+03 0.1245957615104E+03 0.2281113665977E-15
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                   272.56
+ Total processes =                        2
+ Active procs    =                        1
+ Mop/s total     =                  2576.27
+ Mop/s/process   =                  1288.14
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.4
+ Compile date    =              15 Jun 2020
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS) -O ../kernel_stats/kernel_stats.o...
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+[MO866] PI avg,0,1.362749,200
+[MO866] Beta,0,0.000636
+[MO866] Total time,0,275.112137
