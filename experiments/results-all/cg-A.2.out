@@ -1,0 +1,113 @@
+--------------------------------------------------------------------------
+[[59846,1],1]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: node06
+
+Another transport will be used instead, although this may result in
+lower performance.
+
+NOTE: You can disable this warning by setting the MCA parameter
+btl_base_warn_component_unused to 0.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:      14000  (class A)
+ Iterations:    15
+ Number of processes:     2
+ Number of nonzeroes per row:       11
+ Eigenvalue shift:    20.000
+[MO866] Init time,1,0.218559
+[MO866] Init time,0,0.220912
+[MO866] Iteration,1,1,0.253711,0.035119
+
+   iteration           ||r||                 zeta
+        1       0.30634143529489E-12    19.9997581277040
+[MO866] Iteration,0,1,0.256148,0.035203
+[MO866] Iteration,1,2,0.288907,0.035168
+        2       0.31096276403002E-14    17.1140495745506
+[MO866] Iteration,0,2,0.291307,0.035152
+[MO866] Iteration,1,3,0.323984,0.035049
+        3       0.30804037245735E-14    17.1296668946143
+[MO866] Iteration,0,3,0.326368,0.035055
+[MO866] Iteration,1,4,0.359041,0.035033
+        4       0.31368886171027E-14    17.1302113581193
+[MO866] Iteration,0,4,0.361442,0.035067
+[MO866] Iteration,1,5,0.394054,0.034988
+        5       0.30931762620174E-14    17.1302338856353
+[MO866] Iteration,0,5,0.396439,0.034989
+[MO866] Iteration,1,6,0.429222,0.035142
+        6       0.30711211120903E-14    17.1302349879482
+[MO866] Iteration,0,6,0.431618,0.035172
+[MO866] Iteration,1,7,0.464406,0.035157
+        7       0.30014434726280E-14    17.1302350498916
+[MO866] Iteration,0,7,0.466800,0.035177
+[MO866] Iteration,1,8,0.499577,0.035145
+        8       0.30091464390590E-14    17.1302350537510
+[MO866] Iteration,0,8,0.501961,0.035156
+[MO866] Iteration,1,9,0.534523,0.034921
+        9       0.30845738922029E-14    17.1302350540101
+[MO866] Iteration,0,9,0.536907,0.034940
+[MO866] Iteration,1,10,0.569700,0.035151
+       10       0.30464804270749E-14    17.1302350540284
+[MO866] Iteration,0,10,0.572084,0.035170
+[MO866] Iteration,1,11,0.604861,0.035134
+       11       0.30356703468820E-14    17.1302350540298
+[MO866] Iteration,0,11,0.607244,0.035143
+[MO866] Iteration,1,12,0.640021,0.035134
+       12       0.30110387739490E-14    17.1302350540299
+[MO866] Iteration,0,12,0.642404,0.035153
+[MO866] Iteration,1,13,0.675078,0.035031
+       13       0.29937783924423E-14    17.1302350540299
+[MO866] Iteration,0,13,0.677468,0.035047
+[MO866] Iteration,1,14,0.710120,0.035017
+       14       0.30298504149112E-14    17.1302350540299
+[MO866] Iteration,0,14,0.712514,0.035039
+[MO866] Iteration,1,15,0.745219,0.035073
+[MO866] PI avg,1,0.035084,15
+[MO866] Beta,1,0.000068
+[MO866] Total time,1,0.745255
+       15       0.30223982636897E-14    17.1302350540299
+[MO866] Iteration,0,15,0.747604,0.035085
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.1713023505403E+02
+ Error is    0.5226337199892E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Time in seconds =                     0.53
+ Total processes =                        2
+ Active procs    =                        2
+ Mop/s total     =                  2841.20
+ Mop/s/process   =                  1420.60
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.4
+ Compile date    =              15 Jun 2020
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS) -O ../kernel_stats/kernel_stats.o...
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+[MO866] PI avg,0,0.035103,15
+[MO866] Beta,0,0.000488
+[MO866] Total time,0,0.747861
