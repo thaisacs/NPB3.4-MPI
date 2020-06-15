@@ -1,0 +1,122 @@
+--------------------------------------------------------------------------
+[[37153,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: node06
+
+Another transport will be used instead, although this may result in
+lower performance.
+
+NOTE: You can disable this warning by setting the MCA parameter
+btl_base_warn_component_unused to 0.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  512x 512x 512  (class C)
+ Iterations          :             20
+ Number of processes :              2
+ Processor array     :         1x   2
+ Layout type         :             1D
+
+ Initialization time =      9.1028
+
+[MO833] Init time,1,17.332056
+[MO833] Init time,0,17.341174
+[MO833] Iteration,1,1,24.116706,6.784650
+ T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
+[MO833] Iteration,0,1,24.131954,6.790781
+[MO833] Iteration,1,2,30.904127,6.787421
+ T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
+[MO833] Iteration,0,2,30.924040,6.792086
+[MO833] Iteration,1,3,37.481471,6.577344
+ T =    3     Checksum =    5.144678022222D+02    5.122251847514D+02
+[MO833] Iteration,0,3,37.497188,6.573148
+[MO833] Iteration,1,4,44.058722,6.577251
+ T =    4     Checksum =    5.140150594328D+02    5.121090289018D+02
+[MO833] Iteration,0,4,44.076382,6.579194
+[MO833] Iteration,1,5,50.622761,6.564039
+ T =    5     Checksum =    5.137550426810D+02    5.121143685824D+02
+[MO833] Iteration,0,5,50.711244,6.634862
+[MO833] Iteration,1,6,57.041811,6.419050
+ T =    6     Checksum =    5.135811056728D+02    5.121496764568D+02
+[MO833] Iteration,0,6,57.056830,6.345586
+[MO833] Iteration,1,7,63.639619,6.597808
+ T =    7     Checksum =    5.134569343165D+02    5.121870921893D+02
+[MO833] Iteration,0,7,63.711937,6.655107
+[MO833] Iteration,1,8,70.134556,6.494937
+ T =    8     Checksum =    5.133651975661D+02    5.122193250322D+02
+[MO833] Iteration,0,8,70.221238,6.509301
+[MO833] Iteration,1,9,76.477814,6.343258
+ T =    9     Checksum =    5.132955192805D+02    5.122454735794D+02
+[MO833] Iteration,0,9,76.493151,6.271913
+[MO833] Iteration,1,10,82.973602,6.495788
+ T =   10     Checksum =    5.132410471738D+02    5.122663649603D+02
+[MO833] Iteration,0,10,82.988813,6.495662
+[MO833] Iteration,1,11,89.502310,6.528708
+ T =   11     Checksum =    5.131971141679D+02    5.122830879827D+02
+[MO833] Iteration,0,11,89.508026,6.519213
+[MO833] Iteration,1,12,96.015012,6.512702
+ T =   12     Checksum =    5.131605205716D+02    5.122965869718D+02
+[MO833] Iteration,0,12,96.020712,6.512686
+[MO833] Iteration,1,13,102.369675,6.354663
+ T =   13     Checksum =    5.131290734194D+02    5.123075927445D+02
+[MO833] Iteration,0,13,102.385229,6.364517
+[MO833] Iteration,1,14,108.803563,6.433888
+ T =   14     Checksum =    5.131012720314D+02    5.123166486553D+02
+[MO833] Iteration,0,14,108.819724,6.434495
+[MO833] Iteration,1,15,115.272899,6.469336
+ T =   15     Checksum =    5.130760908195D+02    5.123241541685D+02
+[MO833] Iteration,0,15,115.278601,6.458877
+[MO833] Iteration,1,16,121.707852,6.434953
+ T =   16     Checksum =    5.130528295923D+02    5.123304037599D+02
+[MO833] Iteration,0,16,121.713556,6.434955
+[MO833] Iteration,1,17,128.057399,6.349547
+ T =   17     Checksum =    5.130310107773D+02    5.123356167976D+02
+[MO833] Iteration,0,17,128.063101,6.349545
+[MO833] Iteration,1,18,134.541794,6.484395
+ T =   18     Checksum =    5.130103090133D+02    5.123399592211D+02
+[MO833] Iteration,0,18,134.547515,6.484414
+[MO833] Iteration,1,19,141.004277,6.462483
+ T =   19     Checksum =    5.129905029333D+02    5.123435588985D+02
+[MO833] Iteration,0,19,141.009977,6.462462
+ T =   20     Checksum =    5.129714421109D+02    5.123465164008D+02
+ Result verification successful
+[MO833] PI avg,0,6.183440,20
+[MO833] Beta,0,0.000000
+[MO833] Total time,147.474444
+
+
+ FT Benchmark Completed.
+ Class           =                        C
+ Size            =            512x 512x 512
+ Iterations      =                       20
+ Time in seconds =                   138.24
+ Total processes =                        2
+ Active procs    =                        2
+ Mop/s total     =                  2867.34
+ Mop/s/process   =                  1433.67
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.4
+ Compile date    =              15 Jun 2020
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS) -O ../kernel_stats/kernel_stats.o...
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+

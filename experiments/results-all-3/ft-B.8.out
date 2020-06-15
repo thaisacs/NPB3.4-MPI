@@ -1,0 +1,242 @@
+--------------------------------------------------------------------------
+[[37123,1],1]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: node06
+
+Another transport will be used instead, although this may result in
+lower performance.
+
+NOTE: You can disable this warning by setting the MCA parameter
+btl_base_warn_component_unused to 0.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                :  512x 256x 256  (class B)
+ Iterations          :             20
+ Number of processes :              8
+ Processor array     :         1x   8
+ Layout type         :             1D
+
+ Initialization time =      0.6295
+
+[MO833] Init time,6,1.382974
+[MO833] Init time,4,1.387290
+[MO833] Init time,2,1.393395
+[MO833] Init time,0,1.401226
+[MO833] Init time,7,1.385139
+[MO833] Init time,5,1.393245
+[MO833] Init time,1,1.405550
+[MO833] Init time,3,1.406697
+[MO833] Iteration,6,1,1.940621,0.557647
+[MO833] Iteration,7,1,1.937018,0.551880
+[MO833] Iteration,5,1,1.942701,0.549457
+[MO833] Iteration,4,1,1.944327,0.557037
+[MO833] Iteration,1,1,1.955247,0.549697
+[MO833] Iteration,3,1,2.010433,0.603736
+[MO833] Iteration,2,1,2.011321,0.617926
+ T =    1     Checksum =    5.177643571579D+02    5.077803458597D+02
+[MO833] Iteration,0,1,2.019250,0.618024
+[MO833] Iteration,7,2,2.498490,0.561472
+[MO833] Iteration,6,2,2.502060,0.561439
+[MO833] Iteration,5,2,2.504196,0.561495
+[MO833] Iteration,4,2,2.505791,0.561464
+[MO833] Iteration,1,2,2.516727,0.561480
+ T =    2     Checksum =    5.154521291263D+02    5.088249431599D+02
+[MO833] Iteration,0,2,2.580903,0.561653
+[MO833] Iteration,3,2,2.572129,0.561696
+[MO833] Iteration,2,2,2.572983,0.561662
+[MO833] Iteration,6,3,3.063274,0.561214
+[MO833] Iteration,7,3,3.059706,0.561216
+[MO833] Iteration,5,3,3.065216,0.561020
+[MO833] Iteration,4,3,3.066809,0.561018
+[MO833] Iteration,1,3,3.077707,0.560980
+[MO833] Iteration,2,3,3.134295,0.561312
+ T =    3     Checksum =    5.146409228650D+02    5.096208912659D+02
+[MO833] Iteration,0,3,3.142179,0.561276
+[MO833] Iteration,3,3,3.133448,0.561319
+[MO833] Iteration,7,4,3.620111,0.560405
+[MO833] Iteration,5,4,3.625437,0.560221
+[MO833] Iteration,1,4,3.637896,0.560189
+[MO833] Iteration,4,4,3.631854,0.565045
+[MO833] Iteration,6,4,3.628762,0.565488
+[MO833] Iteration,3,4,3.650334,0.516886
+[MO833] Iteration,2,4,3.651234,0.516939
+ T =    4     Checksum =    5.142378756213D+02    5.101023387619D+02
+[MO833] Iteration,0,4,3.659173,0.516994
+[MO833] Iteration,6,5,4.140748,0.511986
+[MO833] Iteration,7,5,4.137182,0.517071
+[MO833] Iteration,1,5,4.154616,0.516720
+[MO833] Iteration,3,5,4.153543,0.503209
+[MO833] Iteration,2,5,4.154396,0.503162
+[MO833] Iteration,5,5,4.150616,0.525179
+[MO833] Iteration,4,5,4.152216,0.520362
+ T =    5     Checksum =    5.139626667737D+02    5.103976610618D+02
+[MO833] Iteration,0,5,4.163469,0.504296
+[MO833] Iteration,2,6,4.694798,0.540402
+[MO833] Iteration,3,6,4.693956,0.540413
+[MO833] Iteration,7,6,4.684939,0.547757
+[MO833] Iteration,6,6,4.688505,0.547757
+[MO833] Iteration,4,6,4.691771,0.539555
+[MO833] Iteration,5,6,4.690176,0.539560
+[MO833] Iteration,1,6,4.701417,0.546801
+ T =    6     Checksum =    5.137423460082D+02    5.105948019802D+02
+[MO833] Iteration,0,6,4.703513,0.540044
+[MO833] Iteration,3,7,5.219053,0.525097
+[MO833] Iteration,6,7,5.213497,0.524992
+[MO833] Iteration,7,7,5.209927,0.524988
+[MO833] Iteration,2,7,5.219896,0.525098
+[MO833] Iteration,4,7,5.216765,0.524994
+[MO833] Iteration,5,7,5.215164,0.524988
+[MO833] Iteration,1,7,5.226166,0.524749
+ T =    7     Checksum =    5.135547056878D+02    5.107404165783D+02
+[MO833] Iteration,0,7,5.228285,0.524772
+[MO833] Iteration,6,8,5.738933,0.525436
+[MO833] Iteration,7,8,5.735366,0.525439
+[MO833] Iteration,1,8,5.751771,0.525605
+[MO833] Iteration,5,8,5.741023,0.525859
+[MO833] Iteration,4,8,5.742616,0.525851
+[MO833] Iteration,3,8,5.745168,0.526115
+[MO833] Iteration,2,8,5.746010,0.526114
+ T =    8     Checksum =    5.133910925467D+02    5.108576573661D+02
+[MO833] Iteration,0,8,5.753964,0.525679
+[MO833] Iteration,7,9,6.260327,0.524961
+[MO833] Iteration,6,9,6.263891,0.524958
+[MO833] Iteration,2,9,6.270739,0.524729
+[MO833] Iteration,3,9,6.269900,0.524732
+[MO833] Iteration,4,9,6.267668,0.525052
+[MO833] Iteration,5,9,6.266078,0.525055
+[MO833] Iteration,1,9,6.277089,0.525318
+ T =    9     Checksum =    5.132470705390D+02    5.109577278523D+02
+[MO833] Iteration,0,9,6.279184,0.525220
+[MO833] Iteration,6,10,6.794433,0.530542
+[MO833] Iteration,7,10,6.790866,0.530539
+[MO833] Iteration,3,10,6.800415,0.530515
+[MO833] Iteration,2,10,6.801258,0.530519
+[MO833] Iteration,5,10,6.796757,0.530679
+[MO833] Iteration,4,10,6.798353,0.530685
+[MO833] Iteration,1,10,6.809076,0.531987
+ T =   10     Checksum =    5.131197729984D+02    5.110460304483D+02
+[MO833] Iteration,0,10,6.811160,0.531976
+[MO833] Iteration,7,11,7.311117,0.520251
+[MO833] Iteration,6,11,7.314684,0.520251
+[MO833] Iteration,4,11,7.317972,0.519619
+[MO833] Iteration,2,11,7.321310,0.520052
+[MO833] Iteration,3,11,7.320468,0.520053
+[MO833] Iteration,5,11,7.316379,0.519622
+ T =   11     Checksum =    5.130070319283D+02    5.111252433800D+02
+[MO833] Iteration,0,11,7.329746,0.518586
+[MO833] Iteration,1,11,7.327655,0.518579
+[MO833] Iteration,6,12,7.840085,0.525401
+[MO833] Iteration,7,12,7.836519,0.525402
+[MO833] Iteration,2,12,7.846798,0.525488
+[MO833] Iteration,3,12,7.845957,0.525489
+[MO833] Iteration,4,12,7.843598,0.525626
+[MO833] Iteration,5,12,7.842006,0.525627
+[MO833] Iteration,1,12,7.853038,0.525383
+ T =   12     Checksum =    5.129070537032D+02    5.111968077719D+02
+[MO833] Iteration,0,12,7.855132,0.525386
+[MO833] Iteration,7,13,8.362093,0.525574
+[MO833] Iteration,6,13,8.365663,0.525578
+[MO833] Iteration,3,13,8.371531,0.525574
+[MO833] Iteration,2,13,8.372375,0.525577
+[MO833] Iteration,5,13,8.367578,0.525572
+[MO833] Iteration,4,13,8.369178,0.525580
+[MO833] Iteration,1,13,8.378644,0.525606
+ T =   13     Checksum =    5.128182883503D+02    5.112616233064D+02
+[MO833] Iteration,0,13,8.380755,0.525623
+[MO833] Iteration,2,14,8.897256,0.524881
+[MO833] Iteration,6,14,8.890834,0.525171
+[MO833] Iteration,3,14,8.896416,0.524885
+[MO833] Iteration,7,14,8.887267,0.525174
+[MO833] Iteration,5,14,8.892787,0.525209
+[MO833] Iteration,4,14,8.894381,0.525203
+ T =   14     Checksum =    5.127393733383D+02    5.113203605551D+02
+[MO833] Iteration,0,14,8.905984,0.525229
+[MO833] Iteration,1,14,8.903881,0.525237
+[MO833] Iteration,7,15,9.412756,0.525489
+[MO833] Iteration,6,15,9.416323,0.525489
+[MO833] Iteration,4,15,9.419966,0.525585
+[MO833] Iteration,2,15,9.423273,0.526017
+[MO833] Iteration,5,15,9.418373,0.525586
+[MO833] Iteration,3,15,9.422430,0.526014
+[MO833] Iteration,1,15,9.429510,0.525629
+ T =   15     Checksum =    5.126691062021D+02    5.113735928093D+02
+[MO833] Iteration,0,15,9.431604,0.525620
+[MO833] Iteration,7,16,9.935059,0.522303
+[MO833] Iteration,3,16,9.944389,0.521959
+[MO833] Iteration,2,16,9.945240,0.521967
+[MO833] Iteration,5,16,9.940452,0.522079
+[MO833] Iteration,1,16,9.951464,0.521954
+[MO833] Iteration,6,16,9.953960,0.537637
+[MO833] Iteration,4,16,9.957047,0.537081
+ T =   16     Checksum =    5.126064276005D+02    5.114218460548D+02
+[MO833] Iteration,0,16,9.968308,0.536704
+[MO833] Iteration,5,17,10.473041,0.532589
+[MO833] Iteration,6,17,10.472271,0.518311
+[MO833] Iteration,7,17,10.468704,0.533645
+[MO833] Iteration,4,17,10.475353,0.518306
+[MO833] Iteration,3,17,10.478320,0.533931
+[MO833] Iteration,2,17,10.479166,0.533926
+[MO833] Iteration,1,17,10.487009,0.535545
+ T =   17     Checksum =    5.125504076570D+02    5.114656139760D+02
+[MO833] Iteration,0,17,10.489150,0.520842
+[MO833] Iteration,6,18,10.999265,0.526994
+[MO833] Iteration,7,18,10.995698,0.526994
+[MO833] Iteration,2,18,11.005885,0.526719
+[MO833] Iteration,3,18,11.005039,0.526719
+[MO833] Iteration,5,18,11.001213,0.528172
+[MO833] Iteration,4,18,11.002807,0.527454
+[MO833] Iteration,1,18,11.012508,0.525499
+ T =   18     Checksum =    5.125002331721D+02    5.115053595966D+02
+[MO833] Iteration,0,18,11.014591,0.525441
+[MO833] Iteration,7,19,11.520879,0.525181
+[MO833] Iteration,6,19,11.524447,0.525182
+[MO833] Iteration,5,19,11.526375,0.525162
+[MO833] Iteration,4,19,11.527967,0.525160
+[MO833] Iteration,2,19,11.531433,0.525548
+[MO833] Iteration,3,19,11.530589,0.525550
+[MO833] Iteration,1,19,11.537661,0.525153
+ T =   19     Checksum =    5.124551951846D+02    5.115415130407D+02
+[MO833] Iteration,0,19,11.539755,0.525164
+ T =   20     Checksum =    5.124146770029D+02    5.115744692211D+02
+ Result verification successful
+[MO833] PI avg,0,0.506926,20
+[MO833] Beta,0,0.000003
+[MO833] Total time,12.065557
+
+
+ FT Benchmark Completed.
+ Class           =                        B
+ Size            =            512x 256x 256
+ Iterations      =                       20
+ Time in seconds =                    11.27
+ Total processes =                        8
+ Active procs    =                        8
+ Mop/s total     =                  8164.57
+ Mop/s/process   =                  1020.57
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.4
+ Compile date    =              15 Jun 2020
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS) -O ../kernel_stats/kernel_stats.o...
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+

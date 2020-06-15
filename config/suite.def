@@ -1,2 +1,10 @@
-cg	A
-sp	A
+bt	B
+bt	C
+ft	B
+ft	C
+cg	B
+cg	C
+lu	B
+lu	C
+sp	B
+sp	C
