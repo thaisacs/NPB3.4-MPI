@@ -67,11 +67,8 @@ void begin_timestep_() {
     pi += begin_time - end_time;
     pi_sum += pi;
     print_timestep(PRINT_STATS, begin_time);
-  my_exit();
 
-  if(early_stop && current_iteration == stop_in)
-    MPI_Abort(MPI_COMM_WORLD, 0);
-  }
+  my_exit();
 
   current_iteration++;
 }
