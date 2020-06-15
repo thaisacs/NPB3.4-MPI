@@ -8,7 +8,7 @@ cd ..
 
 rm config/suite.def
 
-for bench in bt lu cg sp ft; do
+for bench in sp; do
   for size in A; do
 	echo "$bench	$size" >> config/suite.def
   done

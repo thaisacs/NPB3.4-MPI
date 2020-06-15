@@ -77,6 +77,7 @@ c---------------------------------------------------------------------
        endif
 
        call setup_mpi
+       call init_timestep()
        if (.not. active) goto 999
 
 c---------------------------------------------------------------------
@@ -256,6 +257,9 @@ c---------------------------------------------------------------------
  810   format(' timer ', i2, '(', A8, ') :', 3(2x,f10.4))
 
  999   continue
+       
+       call exit_timestep()
+       
        call mpi_barrier(MPI_COMM_WORLD, error)
        call mpi_finalize(error)
 
