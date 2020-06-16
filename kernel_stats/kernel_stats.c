@@ -22,7 +22,7 @@ void print_timestep(uint8_t type, double collected_time) {
       printf("[MO833] Init time,%i,%f\n", rank, collected_time - init_time);
       break;
     case PRINT_STATS:
-      printf("[MO833] Iteration,%i,%i,%f,%f\n", rank, current_iteration, collected_time - init_time, pi);
+      printf("[MO833] Paramount Iteration,%i,%i,%f,%f\n", rank, current_iteration, collected_time - init_time, pi);
       break;
     case PRINT_EXIT:
       printf("[MO833] Total time,%f\n", collected_time - init_time);
@@ -58,7 +58,7 @@ void begin_timestep_() {
 
   if(current_iteration == 0) {
     double current_time = get_current_time();
-    print_timestep(PRINT_INIT, current_time);
+    //print_timestep(PRINT_INIT, current_time);
 
     if(stop_in == 0)
       my_exit();
