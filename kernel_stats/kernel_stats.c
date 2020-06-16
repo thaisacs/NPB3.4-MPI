@@ -67,6 +67,7 @@ void begin_timestep_() {
     pi += begin_time - end_time;
     pi_sum += pi;
     print_timestep(PRINT_STATS, begin_time);
+  }
 
   my_exit();
 
