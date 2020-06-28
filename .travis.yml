@@ -9,3 +9,5 @@ before_install:
 script:
   - cd travis && ./script-build.sh
   - cd .. && make suite
+  - ./bin/bt.A.x
+  - ./bin/cg.A.x
