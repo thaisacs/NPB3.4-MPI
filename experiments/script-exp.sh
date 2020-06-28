@@ -5,7 +5,7 @@ cd results
 
 
 for bench in lu cg ft; do
-  for size in B C; do
+  for size in B; do
     mkdir -p $bench.$size
     cd $bench.$size
     for threads in 1 2 4 8; do
@@ -22,7 +22,7 @@ for bench in lu cg ft; do
 done
 
 for bench in bt sp; do
-  for size in B C; do
+  for size in B; do
     mkdir -p $bench.$size
     cd $bench.$size
     for threads in 1 2 4 8; do
