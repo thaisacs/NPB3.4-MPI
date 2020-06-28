@@ -1,0 +1,492 @@
+--------------------------------------------------------------------------
+[[39422,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: node06
+
+Another transport will be used instead, although this may result in
+lower performance.
+
+NOTE: You can disable this warning by setting the MCA parameter
+btl_base_warn_component_unused to 0.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  102x 102x 102  (class B)
+ Iterations:  400    dt:   0.0010000
+ Total number of processes:     1
+
+ Time step    1
+[MO833] Paramount Iteration,0,1,1.897282,0.545498
+[MO833] Paramount Iteration,0,2,2.465316,0.568034
+[MO833] Paramount Iteration,0,3,3.012174,0.546858
+[MO833] Paramount Iteration,0,4,3.534473,0.522299
+[MO833] Paramount Iteration,0,5,4.102608,0.568135
+[MO833] Paramount Iteration,0,6,4.648115,0.545507
+[MO833] Paramount Iteration,0,7,5.170415,0.522300
+[MO833] Paramount Iteration,0,8,5.739318,0.568903
+[MO833] Paramount Iteration,0,9,6.270408,0.531090
+[MO833] Paramount Iteration,0,10,6.805638,0.535230
+[MO833] Paramount Iteration,0,11,7.328130,0.522492
+[MO833] Paramount Iteration,0,12,7.896405,0.568275
+[MO833] Paramount Iteration,0,13,8.428629,0.532224
+[MO833] Paramount Iteration,0,14,8.949174,0.520545
+[MO833] Paramount Iteration,0,15,9.483703,0.534529
+[MO833] Paramount Iteration,0,16,10.005646,0.521943
+[MO833] Paramount Iteration,0,17,10.526167,0.520521
+[MO833] Paramount Iteration,0,18,11.093989,0.567822
+[MO833] Paramount Iteration,0,19,11.625082,0.531093
+ Time step   20
+[MO833] Paramount Iteration,0,20,12.145945,0.520863
+[MO833] Paramount Iteration,0,21,12.682127,0.536182
+[MO833] Paramount Iteration,0,22,13.204061,0.521934
+[MO833] Paramount Iteration,0,23,13.724657,0.520596
+[MO833] Paramount Iteration,0,24,14.245787,0.521130
+[MO833] Paramount Iteration,0,25,14.775210,0.529423
+[MO833] Paramount Iteration,0,26,15.341208,0.565998
+[MO833] Paramount Iteration,0,27,15.861392,0.520184
+[MO833] Paramount Iteration,0,28,16.382089,0.520697
+[MO833] Paramount Iteration,0,29,16.902950,0.520861
+[MO833] Paramount Iteration,0,30,17.440057,0.537107
+[MO833] Paramount Iteration,0,31,17.961896,0.521839
+[MO833] Paramount Iteration,0,32,18.482433,0.520537
+[MO833] Paramount Iteration,0,33,19.003263,0.520830
+[MO833] Paramount Iteration,0,34,19.524116,0.520853
+[MO833] Paramount Iteration,0,35,20.096482,0.572366
+[MO833] Paramount Iteration,0,36,20.627688,0.531206
+[MO833] Paramount Iteration,0,37,21.148095,0.520407
+[MO833] Paramount Iteration,0,38,21.668717,0.520622
+[MO833] Paramount Iteration,0,39,22.189145,0.520428
+ Time step   40
+[MO833] Paramount Iteration,0,40,22.709819,0.520674
+[MO833] Paramount Iteration,0,41,23.245975,0.536156
+[MO833] Paramount Iteration,0,42,23.768097,0.522122
+[MO833] Paramount Iteration,0,43,24.289016,0.520919
+[MO833] Paramount Iteration,0,44,24.809236,0.520220
+[MO833] Paramount Iteration,0,45,25.329762,0.520526
+[MO833] Paramount Iteration,0,46,25.850113,0.520351
+[MO833] Paramount Iteration,0,47,26.370668,0.520555
+[MO833] Paramount Iteration,0,48,26.937172,0.566504
+[MO833] Paramount Iteration,0,49,27.468620,0.531448
+[MO833] Paramount Iteration,0,50,27.989245,0.520625
+[MO833] Paramount Iteration,0,51,28.509925,0.520680
+[MO833] Paramount Iteration,0,52,29.030823,0.520898
+[MO833] Paramount Iteration,0,53,29.551441,0.520618
+[MO833] Paramount Iteration,0,54,30.072138,0.520697
+[MO833] Paramount Iteration,0,55,30.609388,0.537250
+[MO833] Paramount Iteration,0,56,31.131620,0.522232
+[MO833] Paramount Iteration,0,57,31.652126,0.520506
+[MO833] Paramount Iteration,0,58,32.172745,0.520619
+[MO833] Paramount Iteration,0,59,32.693439,0.520694
+ Time step   60
+[MO833] Paramount Iteration,0,60,33.213875,0.520436
+[MO833] Paramount Iteration,0,61,33.734409,0.520534
+[MO833] Paramount Iteration,0,62,34.256143,0.521734
+[MO833] Paramount Iteration,0,63,34.777031,0.520888
+[MO833] Paramount Iteration,0,64,35.298077,0.521046
+[MO833] Paramount Iteration,0,65,35.882871,0.584794
+[MO833] Paramount Iteration,0,66,36.406505,0.523634
+[MO833] Paramount Iteration,0,67,36.927275,0.520770
+[MO833] Paramount Iteration,0,68,37.447853,0.520578
+[MO833] Paramount Iteration,0,69,37.968309,0.520456
+[MO833] Paramount Iteration,0,70,38.488869,0.520560
+[MO833] Paramount Iteration,0,71,39.009570,0.520701
+[MO833] Paramount Iteration,0,72,39.530197,0.520627
+[MO833] Paramount Iteration,0,73,40.051209,0.521012
+[MO833] Paramount Iteration,0,74,40.587688,0.536479
+[MO833] Paramount Iteration,0,75,41.109751,0.522063
+[MO833] Paramount Iteration,0,76,41.630379,0.520628
+[MO833] Paramount Iteration,0,77,42.151070,0.520691
+[MO833] Paramount Iteration,0,78,42.672197,0.521127
+[MO833] Paramount Iteration,0,79,43.192859,0.520662
+ Time step   80
+[MO833] Paramount Iteration,0,80,43.713180,0.520321
+[MO833] Paramount Iteration,0,81,44.234289,0.521109
+[MO833] Paramount Iteration,0,82,44.754981,0.520692
+[MO833] Paramount Iteration,0,83,45.275611,0.520630
+[MO833] Paramount Iteration,0,84,45.796215,0.520604
+[MO833] Paramount Iteration,0,85,46.317009,0.520794
+[MO833] Paramount Iteration,0,86,46.886068,0.569059
+[MO833] Paramount Iteration,0,87,47.417352,0.531284
+[MO833] Paramount Iteration,0,88,47.938065,0.520713
+[MO833] Paramount Iteration,0,89,48.458671,0.520606
+[MO833] Paramount Iteration,0,90,48.979382,0.520711
+[MO833] Paramount Iteration,0,91,49.500108,0.520726
+[MO833] Paramount Iteration,0,92,50.020887,0.520779
+[MO833] Paramount Iteration,0,93,50.541532,0.520645
+[MO833] Paramount Iteration,0,94,51.062502,0.520970
+[MO833] Paramount Iteration,0,95,51.583260,0.520758
+[MO833] Paramount Iteration,0,96,52.103923,0.520663
+[MO833] Paramount Iteration,0,97,52.624628,0.520705
+[MO833] Paramount Iteration,0,98,53.160396,0.535768
+[MO833] Paramount Iteration,0,99,53.682426,0.522030
+ Time step  100
+[MO833] Paramount Iteration,0,100,54.203205,0.520779
+[MO833] Paramount Iteration,0,101,54.723784,0.520579
+[MO833] Paramount Iteration,0,102,55.244675,0.520891
+[MO833] Paramount Iteration,0,103,55.765253,0.520578
+[MO833] Paramount Iteration,0,104,56.285974,0.520721
+[MO833] Paramount Iteration,0,105,56.806470,0.520496
+[MO833] Paramount Iteration,0,106,57.327114,0.520644
+[MO833] Paramount Iteration,0,107,57.847512,0.520398
+[MO833] Paramount Iteration,0,108,58.368967,0.521455
+[MO833] Paramount Iteration,0,109,58.889387,0.520420
+[MO833] Paramount Iteration,0,110,59.410732,0.521345
+[MO833] Paramount Iteration,0,111,59.931369,0.520637
+[MO833] Paramount Iteration,0,112,60.452153,0.520784
+[MO833] Paramount Iteration,0,113,60.972703,0.520550
+[MO833] Paramount Iteration,0,114,61.542902,0.570199
+[MO833] Paramount Iteration,0,115,62.074252,0.531350
+[MO833] Paramount Iteration,0,116,62.594805,0.520553
+[MO833] Paramount Iteration,0,117,63.115681,0.520876
+[MO833] Paramount Iteration,0,118,63.636609,0.520928
+[MO833] Paramount Iteration,0,119,64.157679,0.521070
+ Time step  120
+[MO833] Paramount Iteration,0,120,64.678466,0.520787
+[MO833] Paramount Iteration,0,121,65.199135,0.520669
+[MO833] Paramount Iteration,0,122,65.719556,0.520421
+[MO833] Paramount Iteration,0,123,66.240231,0.520675
+[MO833] Paramount Iteration,0,124,66.761345,0.521114
+[MO833] Paramount Iteration,0,125,67.282242,0.520897
+[MO833] Paramount Iteration,0,126,67.802970,0.520728
+[MO833] Paramount Iteration,0,127,68.323905,0.520935
+[MO833] Paramount Iteration,0,128,68.844809,0.520904
+[MO833] Paramount Iteration,0,129,69.365572,0.520763
+[MO833] Paramount Iteration,0,130,69.902049,0.536477
+[MO833] Paramount Iteration,0,131,70.424389,0.522340
+[MO833] Paramount Iteration,0,132,70.944885,0.520496
+[MO833] Paramount Iteration,0,133,71.465558,0.520673
+[MO833] Paramount Iteration,0,134,71.986337,0.520779
+[MO833] Paramount Iteration,0,135,72.506930,0.520593
+[MO833] Paramount Iteration,0,136,73.027900,0.520970
+[MO833] Paramount Iteration,0,137,73.548232,0.520332
+[MO833] Paramount Iteration,0,138,74.069347,0.521115
+[MO833] Paramount Iteration,0,139,74.590033,0.520686
+ Time step  140
+[MO833] Paramount Iteration,0,140,75.110882,0.520849
+[MO833] Paramount Iteration,0,141,75.631558,0.520676
+[MO833] Paramount Iteration,0,142,76.176809,0.545251
+[MO833] Paramount Iteration,0,143,76.794553,0.617744
+[MO833] Paramount Iteration,0,144,77.505408,0.710855
+[MO833] Paramount Iteration,0,145,78.217725,0.712317
+[MO833] Paramount Iteration,0,146,78.930016,0.712291
+[MO833] Paramount Iteration,0,147,79.570912,0.640896
+[MO833] Paramount Iteration,0,148,80.166970,0.596058
+[MO833] Paramount Iteration,0,149,80.740028,0.573058
+[MO833] Paramount Iteration,0,150,81.270811,0.530783
+[MO833] Paramount Iteration,0,151,81.791527,0.520716
+[MO833] Paramount Iteration,0,152,82.312528,0.521001
+[MO833] Paramount Iteration,0,153,82.833350,0.520822
+[MO833] Paramount Iteration,0,154,83.353859,0.520509
+[MO833] Paramount Iteration,0,155,83.874561,0.520702
+[MO833] Paramount Iteration,0,156,84.395796,0.521235
+[MO833] Paramount Iteration,0,157,84.916734,0.520938
+[MO833] Paramount Iteration,0,158,85.437314,0.520580
+[MO833] Paramount Iteration,0,159,85.957741,0.520427
+ Time step  160
+[MO833] Paramount Iteration,0,160,86.478519,0.520778
+[MO833] Paramount Iteration,0,161,86.999009,0.520490
+[MO833] Paramount Iteration,0,162,87.520225,0.521216
+[MO833] Paramount Iteration,0,163,88.040787,0.520562
+[MO833] Paramount Iteration,0,164,88.561284,0.520497
+[MO833] Paramount Iteration,0,165,89.081842,0.520558
+[MO833] Paramount Iteration,0,166,89.602289,0.520447
+[MO833] Paramount Iteration,0,167,90.123000,0.520711
+[MO833] Paramount Iteration,0,168,90.643756,0.520756
+[MO833] Paramount Iteration,0,169,91.164825,0.521069
+[MO833] Paramount Iteration,0,170,91.701593,0.536768
+[MO833] Paramount Iteration,0,171,92.223774,0.522181
+[MO833] Paramount Iteration,0,172,92.750433,0.526659
+[MO833] Paramount Iteration,0,173,93.271010,0.520577
+[MO833] Paramount Iteration,0,174,93.791649,0.520639
+[MO833] Paramount Iteration,0,175,94.312602,0.520953
+[MO833] Paramount Iteration,0,176,94.833586,0.520984
+[MO833] Paramount Iteration,0,177,95.354555,0.520969
+[MO833] Paramount Iteration,0,178,95.875311,0.520756
+[MO833] Paramount Iteration,0,179,96.396093,0.520782
+ Time step  180
+[MO833] Paramount Iteration,0,180,96.916717,0.520624
+[MO833] Paramount Iteration,0,181,97.436995,0.520278
+[MO833] Paramount Iteration,0,182,97.957392,0.520397
+[MO833] Paramount Iteration,0,183,98.478011,0.520619
+[MO833] Paramount Iteration,0,184,98.998622,0.520611
+[MO833] Paramount Iteration,0,185,99.519729,0.521107
+[MO833] Paramount Iteration,0,186,100.040440,0.520711
+[MO833] Paramount Iteration,0,187,100.561313,0.520873
+[MO833] Paramount Iteration,0,188,101.082148,0.520835
+[MO833] Paramount Iteration,0,189,101.602624,0.520476
+[MO833] Paramount Iteration,0,190,102.123286,0.520662
+[MO833] Paramount Iteration,0,191,102.643912,0.520626
+[MO833] Paramount Iteration,0,192,103.164593,0.520681
+[MO833] Paramount Iteration,0,193,103.685096,0.520503
+[MO833] Paramount Iteration,0,194,104.206200,0.521104
+[MO833] Paramount Iteration,0,195,104.726694,0.520494
+[MO833] Paramount Iteration,0,196,105.247328,0.520634
+[MO833] Paramount Iteration,0,197,105.815847,0.568519
+[MO833] Paramount Iteration,0,198,106.345686,0.529839
+[MO833] Paramount Iteration,0,199,106.866267,0.520581
+ Time step  200
+[MO833] Paramount Iteration,0,200,107.387142,0.520875
+[MO833] Paramount Iteration,0,201,107.908033,0.520891
+[MO833] Paramount Iteration,0,202,108.428682,0.520649
+[MO833] Paramount Iteration,0,203,108.949433,0.520751
+[MO833] Paramount Iteration,0,204,109.470122,0.520689
+[MO833] Paramount Iteration,0,205,109.990266,0.520144
+[MO833] Paramount Iteration,0,206,110.511009,0.520743
+[MO833] Paramount Iteration,0,207,111.031953,0.520944
+[MO833] Paramount Iteration,0,208,111.552956,0.521003
+[MO833] Paramount Iteration,0,209,112.073580,0.520624
+[MO833] Paramount Iteration,0,210,112.594210,0.520630
+[MO833] Paramount Iteration,0,211,113.115033,0.520823
+[MO833] Paramount Iteration,0,212,113.635803,0.520770
+[MO833] Paramount Iteration,0,213,114.156548,0.520745
+[MO833] Paramount Iteration,0,214,114.678267,0.521719
+[MO833] Paramount Iteration,0,215,115.198936,0.520669
+[MO833] Paramount Iteration,0,216,115.719484,0.520548
+[MO833] Paramount Iteration,0,217,116.240344,0.520860
+[MO833] Paramount Iteration,0,218,116.760942,0.520598
+[MO833] Paramount Iteration,0,219,117.281316,0.520374
+ Time step  220
+[MO833] Paramount Iteration,0,220,117.801756,0.520440
+[MO833] Paramount Iteration,0,221,118.322446,0.520690
+[MO833] Paramount Iteration,0,222,118.843402,0.520956
+[MO833] Paramount Iteration,0,223,119.378966,0.535564
+[MO833] Paramount Iteration,0,224,119.901084,0.522118
+[MO833] Paramount Iteration,0,225,120.421803,0.520719
+[MO833] Paramount Iteration,0,226,120.942544,0.520741
+[MO833] Paramount Iteration,0,227,121.463119,0.520575
+[MO833] Paramount Iteration,0,228,121.983635,0.520516
+[MO833] Paramount Iteration,0,229,122.504168,0.520533
+[MO833] Paramount Iteration,0,230,123.024761,0.520593
+[MO833] Paramount Iteration,0,231,123.545341,0.520580
+[MO833] Paramount Iteration,0,232,124.066018,0.520677
+[MO833] Paramount Iteration,0,233,124.586517,0.520499
+[MO833] Paramount Iteration,0,234,125.107331,0.520814
+[MO833] Paramount Iteration,0,235,125.628096,0.520765
+[MO833] Paramount Iteration,0,236,126.149233,0.521137
+[MO833] Paramount Iteration,0,237,126.670340,0.521107
+[MO833] Paramount Iteration,0,238,127.191204,0.520864
+[MO833] Paramount Iteration,0,239,127.711752,0.520548
+ Time step  240
+[MO833] Paramount Iteration,0,240,128.232555,0.520803
+[MO833] Paramount Iteration,0,241,128.753049,0.520494
+[MO833] Paramount Iteration,0,242,129.273232,0.520183
+[MO833] Paramount Iteration,0,243,129.793602,0.520370
+[MO833] Paramount Iteration,0,244,130.314165,0.520563
+[MO833] Paramount Iteration,0,245,130.835047,0.520882
+[MO833] Paramount Iteration,0,246,131.356246,0.521199
+[MO833] Paramount Iteration,0,247,131.876761,0.520515
+[MO833] Paramount Iteration,0,248,132.397477,0.520716
+[MO833] Paramount Iteration,0,249,132.918029,0.520552
+[MO833] Paramount Iteration,0,250,133.438560,0.520531
+[MO833] Paramount Iteration,0,251,133.959017,0.520457
+[MO833] Paramount Iteration,0,252,134.480072,0.521055
+[MO833] Paramount Iteration,0,253,135.000730,0.520658
+[MO833] Paramount Iteration,0,254,135.521850,0.521120
+[MO833] Paramount Iteration,0,255,136.042642,0.520792
+[MO833] Paramount Iteration,0,256,136.563320,0.520678
+[MO833] Paramount Iteration,0,257,137.084476,0.521156
+[MO833] Paramount Iteration,0,258,137.605020,0.520544
+[MO833] Paramount Iteration,0,259,138.180265,0.575245
+ Time step  260
+[MO833] Paramount Iteration,0,260,138.701109,0.520844
+[MO833] Paramount Iteration,0,261,139.221763,0.520654
+[MO833] Paramount Iteration,0,262,139.742355,0.520592
+[MO833] Paramount Iteration,0,263,140.263329,0.520974
+[MO833] Paramount Iteration,0,264,140.784059,0.520730
+[MO833] Paramount Iteration,0,265,141.304436,0.520377
+[MO833] Paramount Iteration,0,266,141.824935,0.520499
+[MO833] Paramount Iteration,0,267,142.345275,0.520340
+[MO833] Paramount Iteration,0,268,142.865978,0.520703
+[MO833] Paramount Iteration,0,269,143.386915,0.520937
+[MO833] Paramount Iteration,0,270,143.907559,0.520644
+[MO833] Paramount Iteration,0,271,144.428458,0.520899
+[MO833] Paramount Iteration,0,272,144.948916,0.520458
+[MO833] Paramount Iteration,0,273,145.469616,0.520700
+[MO833] Paramount Iteration,0,274,145.989861,0.520245
+[MO833] Paramount Iteration,0,275,146.510539,0.520678
+[MO833] Paramount Iteration,0,276,147.031104,0.520565
+[MO833] Paramount Iteration,0,277,147.551931,0.520827
+[MO833] Paramount Iteration,0,278,148.072524,0.520593
+[MO833] Paramount Iteration,0,279,148.593209,0.520685
+ Time step  280
+[MO833] Paramount Iteration,0,280,149.113989,0.520780
+[MO833] Paramount Iteration,0,281,149.635310,0.521321
+[MO833] Paramount Iteration,0,282,150.156314,0.521004
+[MO833] Paramount Iteration,0,283,150.676998,0.520684
+[MO833] Paramount Iteration,0,284,151.197511,0.520513
+[MO833] Paramount Iteration,0,285,151.717922,0.520411
+[MO833] Paramount Iteration,0,286,152.238631,0.520709
+[MO833] Paramount Iteration,0,287,152.758961,0.520330
+[MO833] Paramount Iteration,0,288,153.279627,0.520666
+[MO833] Paramount Iteration,0,289,153.800268,0.520641
+[MO833] Paramount Iteration,0,290,154.321139,0.520871
+[MO833] Paramount Iteration,0,291,154.841793,0.520654
+[MO833] Paramount Iteration,0,292,155.362633,0.520840
+[MO833] Paramount Iteration,0,293,155.898316,0.535683
+[MO833] Paramount Iteration,0,294,156.420622,0.522306
+[MO833] Paramount Iteration,0,295,156.941330,0.520708
+[MO833] Paramount Iteration,0,296,157.462120,0.520790
+[MO833] Paramount Iteration,0,297,157.982520,0.520400
+[MO833] Paramount Iteration,0,298,158.503248,0.520728
+[MO833] Paramount Iteration,0,299,159.023837,0.520589
+ Time step  300
+[MO833] Paramount Iteration,0,300,159.544616,0.520779
+[MO833] Paramount Iteration,0,301,160.065107,0.520491
+[MO833] Paramount Iteration,0,302,160.585716,0.520609
+[MO833] Paramount Iteration,0,303,161.106484,0.520768
+[MO833] Paramount Iteration,0,304,161.627139,0.520655
+[MO833] Paramount Iteration,0,305,162.148310,0.521171
+[MO833] Paramount Iteration,0,306,162.668927,0.520617
+[MO833] Paramount Iteration,0,307,163.189783,0.520856
+[MO833] Paramount Iteration,0,308,163.710225,0.520442
+[MO833] Paramount Iteration,0,309,164.231240,0.521015
+[MO833] Paramount Iteration,0,310,164.751652,0.520412
+[MO833] Paramount Iteration,0,311,165.272176,0.520524
+[MO833] Paramount Iteration,0,312,165.792704,0.520528
+[MO833] Paramount Iteration,0,313,166.313372,0.520668
+[MO833] Paramount Iteration,0,314,166.834184,0.520812
+[MO833] Paramount Iteration,0,315,167.354855,0.520671
+[MO833] Paramount Iteration,0,316,167.875642,0.520787
+[MO833] Paramount Iteration,0,317,168.396190,0.520548
+[MO833] Paramount Iteration,0,318,168.917068,0.520878
+[MO833] Paramount Iteration,0,319,169.437347,0.520279
+ Time step  320
+[MO833] Paramount Iteration,0,320,169.957599,0.520252
+[MO833] Paramount Iteration,0,321,170.478060,0.520461
+[MO833] Paramount Iteration,0,322,170.998712,0.520652
+[MO833] Paramount Iteration,0,323,171.519945,0.521233
+[MO833] Paramount Iteration,0,324,172.040517,0.520572
+[MO833] Paramount Iteration,0,325,172.561116,0.520599
+[MO833] Paramount Iteration,0,326,173.081752,0.520636
+[MO833] Paramount Iteration,0,327,173.602203,0.520451
+[MO833] Paramount Iteration,0,328,174.122923,0.520720
+[MO833] Paramount Iteration,0,329,174.643617,0.520694
+[MO833] Paramount Iteration,0,330,175.164650,0.521033
+[MO833] Paramount Iteration,0,331,175.685109,0.520459
+[MO833] Paramount Iteration,0,332,176.205447,0.520338
+[MO833] Paramount Iteration,0,333,176.726330,0.520883
+[MO833] Paramount Iteration,0,334,177.246969,0.520639
+[MO833] Paramount Iteration,0,335,177.767372,0.520403
+[MO833] Paramount Iteration,0,336,178.288385,0.521013
+[MO833] Paramount Iteration,0,337,178.808761,0.520376
+[MO833] Paramount Iteration,0,338,179.329743,0.520982
+[MO833] Paramount Iteration,0,339,179.897228,0.567485
+ Time step  340
+[MO833] Paramount Iteration,0,340,180.428434,0.531206
+[MO833] Paramount Iteration,0,341,180.949094,0.520660
+[MO833] Paramount Iteration,0,342,181.469451,0.520357
+[MO833] Paramount Iteration,0,343,181.989737,0.520286
+[MO833] Paramount Iteration,0,344,182.510240,0.520503
+[MO833] Paramount Iteration,0,345,183.030883,0.520643
+[MO833] Paramount Iteration,0,346,183.551830,0.520947
+[MO833] Paramount Iteration,0,347,184.072523,0.520693
+[MO833] Paramount Iteration,0,348,184.593107,0.520584
+[MO833] Paramount Iteration,0,349,185.113903,0.520796
+[MO833] Paramount Iteration,0,350,185.634471,0.520568
+[MO833] Paramount Iteration,0,351,186.155018,0.520547
+[MO833] Paramount Iteration,0,352,186.675971,0.520953
+[MO833] Paramount Iteration,0,353,187.196854,0.520883
+[MO833] Paramount Iteration,0,354,187.717208,0.520354
+[MO833] Paramount Iteration,0,355,188.237599,0.520391
+[MO833] Paramount Iteration,0,356,188.757978,0.520379
+[MO833] Paramount Iteration,0,357,189.278257,0.520279
+[MO833] Paramount Iteration,0,358,189.798702,0.520445
+[MO833] Paramount Iteration,0,359,190.319803,0.521101
+ Time step  360
+[MO833] Paramount Iteration,0,360,190.840625,0.520822
+[MO833] Paramount Iteration,0,361,191.361297,0.520672
+[MO833] Paramount Iteration,0,362,191.881641,0.520344
+[MO833] Paramount Iteration,0,363,192.402018,0.520377
+[MO833] Paramount Iteration,0,364,192.922774,0.520756
+[MO833] Paramount Iteration,0,365,193.443283,0.520509
+[MO833] Paramount Iteration,0,366,193.963927,0.520644
+[MO833] Paramount Iteration,0,367,194.484724,0.520797
+[MO833] Paramount Iteration,0,368,195.005192,0.520468
+[MO833] Paramount Iteration,0,369,195.526041,0.520849
+[MO833] Paramount Iteration,0,370,196.046446,0.520405
+[MO833] Paramount Iteration,0,371,196.567041,0.520595
+[MO833] Paramount Iteration,0,372,197.087968,0.520927
+[MO833] Paramount Iteration,0,373,197.608592,0.520624
+[MO833] Paramount Iteration,0,374,198.130961,0.522369
+[MO833] Paramount Iteration,0,375,198.662771,0.531810
+[MO833] Paramount Iteration,0,376,199.241223,0.578452
+[MO833] Paramount Iteration,0,377,199.837202,0.595979
+[MO833] Paramount Iteration,0,378,200.401259,0.564057
+[MO833] Paramount Iteration,0,379,200.921911,0.520652
+ Time step  380
+[MO833] Paramount Iteration,0,380,201.442202,0.520291
+[MO833] Paramount Iteration,0,381,201.963135,0.520933
+[MO833] Paramount Iteration,0,382,202.483913,0.520778
+[MO833] Paramount Iteration,0,383,203.004451,0.520538
+[MO833] Paramount Iteration,0,384,203.541054,0.536603
+[MO833] Paramount Iteration,0,385,204.063351,0.522297
+[MO833] Paramount Iteration,0,386,204.584336,0.520985
+[MO833] Paramount Iteration,0,387,205.105022,0.520686
+[MO833] Paramount Iteration,0,388,205.625500,0.520478
+[MO833] Paramount Iteration,0,389,206.145827,0.520327
+[MO833] Paramount Iteration,0,390,206.666696,0.520869
+[MO833] Paramount Iteration,0,391,207.187544,0.520848
+[MO833] Paramount Iteration,0,392,207.707990,0.520446
+[MO833] Paramount Iteration,0,393,208.228640,0.520650
+[MO833] Paramount Iteration,0,394,208.749299,0.520659
+[MO833] Paramount Iteration,0,395,209.269904,0.520605
+[MO833] Paramount Iteration,0,396,209.790572,0.520668
+[MO833] Paramount Iteration,0,397,210.311403,0.520831
+[MO833] Paramount Iteration,0,398,210.831959,0.520556
+[MO833] Paramount Iteration,0,399,211.352607,0.520648
+ Time step  400
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6903293579998E+02 0.6903293579998E+02 0.5558116178373E-13
+           2 0.3095134488084E+02 0.3095134488084E+02 0.8413654193659E-13
+           3 0.4103336647017E+02 0.4103336647017E+02 0.1097848246986E-12
+           4 0.3864769009604E+02 0.3864769009604E+02 0.3107086660161E-13
+           5 0.5643482272596E+02 0.5643482272596E+02 0.5489458774341E-13
+ Comparison of RMS-norms of solution error
+           1 0.9810006190188E-02 0.9810006190188E-02 0.4208602719287E-13
+           2 0.1022827905670E-02 0.1022827905670E-02 0.3987736891299E-12
+           3 0.1720597911692E-02 0.1720597911692E-02 0.1480807972640E-12
+           4 0.1694479428231E-02 0.1694479428231E-02 0.8317969523552E-13
+           5 0.1847456263981E-01 0.1847456263981E-01 0.7417937694875E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      400
+ Time in seconds =                   210.52
+ Total processes =                        1
+ Active procs    =                        1
+ Mop/s total     =                  1686.35
+ Mop/s/process   =                  1686.35
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.4
+ Compile date    =              16 Jun 2020
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS) -O ../kernel_stats/kernel_stats.o...
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+[MO833] PI avg,0,0.525002,400
+[MO833] Beta,0,0.000859
+[MO833] Total time,212.053361
